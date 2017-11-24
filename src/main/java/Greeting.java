@@ -22,6 +22,9 @@ public class Greeting {
             case HELLOKIDS:
                 greeting = "Hello kids!";
                 break;
+            case HELLOEVERYBODY:
+                greeting = "Hello everybody!";
+                break;
         }
         return greeting;
     }
