@@ -22,5 +22,6 @@ public class GreetingTest {
         assertEquals("Hello guys!", testedObject.passGreetings(GreetingType.HELLOGUYS));
         assertEquals("Hello kids!", testedObject.passGreetings(GreetingType.HELLOKIDS));
         assertEquals("Hello everybody!", testedObject.passGreetings(GreetingType.HELLOEVERYBODY));
+        assertEquals("Hello eveybody!", testedObject.passGreetings(GreetingType.HELLOEVERYBODY));
     }
 }
